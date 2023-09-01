@@ -31,3 +31,5 @@ of the concepts I am learning.
 19. AIC (Akaike Information Criterion): AIC is a measure of model quality that balances fit and complexity, penalizing models with more parameters.
 20. BIC (Bayesian Information Criterion): Similar to AIC, BIC is another model selection criterion that penalizes complexity more strongly, favoring simpler models.
 21. Adjusted R-squared: Adjusted R-squared accounts for the number of predictors in a regression model, giving a more accurate assessment of model fit and preventing overfitting.
+22. Forward Subset Selection is a feature selection technique that starts with an empty set of features and iteratively adds one feature at a time, selecting the one that improves the model's performance the most until a stopping criterion is met.
+23. Backward Subset Selection is the opposite approach, starting with all features and iteratively removing one feature at a time, typically based on which feature has the least negative impact (when removed) on the model performance.
