@@ -33,3 +33,13 @@ of the concepts I am learning.
 21. Adjusted R-squared: Adjusted R-squared accounts for the number of predictors in a regression model, giving a more accurate assessment of model fit and preventing overfitting.
 22. Forward Subset Selection is a feature selection technique that starts with an empty set of features and iteratively adds one feature at a time, selecting the one that improves the model's performance the most until a stopping criterion is met.
 23. Backward Subset Selection is the opposite approach, starting with all features and iteratively removing one feature at a time, typically based on which feature has the least negative impact (when removed) on the model performance.
+24. WHen fitting a linear regression model, the parameters (b0, b1, b2, etc) are being fit while optimizing for MSE as the loss function. MSE = (1/n) \* Σ(y_i - ŷ_i)^2.
+25. Functional form of logistic regression model: P(Y = 1) = 1 / (1 + e^(-(β0 + β1X1 + β2X2 + ... + βpXp))).
+26. The one-vs-rest (OvR) classifier is a multiclass classification strategy that trains multiple binary classifiers, each distinguishing one class from all others, simplifying the handling of multiclass problems. A total of (number of classes - 1) classifiers are fit.
+27. The "one-vs-one" (OvO) classifier strategy decomposes a multiclass problem into pairwise binary classification problems, resulting in (n(n-1))/2binary classifiers for n classes.
+28. The gradient of a function represents the vector of partial derivatives of a scalar-valued function with respect to each of its input variables.
+29. The loss function of a binary classifier is the Binary Cross Entropy function.
+30. When training a model, there are multiple ways of evaluating the loss function at every iteration: batch, mini batch, and stochastic.
+31. Batch uses all of the training data at every iteration to evaluate the loss function.
+32. Mini batch subsets the dataset into different batches and uses a different batch at every iteration to evaluate the loss function.
+33. Stochastic uses one point at every iteration to evaluate the loss function.
