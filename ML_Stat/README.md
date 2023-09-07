@@ -43,3 +43,12 @@ of the concepts I am learning.
 31. Batch uses all of the training data at every iteration to evaluate the loss function.
 32. Mini batch subsets the dataset into different batches and uses a different batch at every iteration to evaluate the loss function.
 33. Stochastic uses one point at every iteration to evaluate the loss function.
+34. The four main assumptions of linear regression are:
+
+    - Linearity: The relationship between predictors and the response variable can be adequately represented by a linear equation.
+
+    - Independence of Errors: The errors (residuals) should be independent of each other, meaning one observation's error does not predict another's.
+
+    - Homoscedasticity: The spread of residuals should be roughly consistent across all levels of predictor values, implying constant variance.
+
+    - Normality of Residuals: Residuals should follow a normal distribution, important for valid statistical inference.
