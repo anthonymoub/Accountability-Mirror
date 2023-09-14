@@ -52,3 +52,7 @@ of the concepts I am learning.
     - Homoscedasticity: The spread of residuals should be roughly consistent across all levels of predictor values, implying constant variance.
 
     - Normality of Residuals: Residuals should follow a normal distribution, important for valid statistical inference.
+
+35. In the context of classification, type II error represents a false negative while type I represents a false positive.
+36. A high precision model means that the returned +, it is mostly guaranteed that all of them are +. Tradeoff: Some FN are assigned.
+37. A high recall model is a model that returns all the + in the data. Tradeoff: Some FP are assigned.
