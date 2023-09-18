@@ -56,3 +56,7 @@ of the concepts I am learning.
 35. In the context of classification, type II error represents a false negative while type I represents a false positive.
 36. A high precision model means that the returned +, it is mostly guaranteed that all of them are +. Tradeoff: Some FN are assigned.
 37. A high recall model is a model that returns all the + in the data. Tradeoff: Some FP are assigned.
+38. When preprocessing data for machine learning, there are multiple ways to deal with NA values:
+    1. If a small amount of data has NA (around 10%), then we could just replace them with the mean or median of the column (median if the column's data is skewed and not normally distributed, i.e has a lot of outliers and mean if the data is normally distributed with few outliers).
+    2. If around 30% (or more) of the column has NA values, then we should just drop them as replacing them with any value might skew the distribution and make our model bias.
+    3. Maybe the NA itself is a piece of information, so flagging it by creating a new column would make sense.
