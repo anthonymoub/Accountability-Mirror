@@ -60,3 +60,4 @@ of the concepts I am learning.
     1. If a small amount of data has NA (around 10%), then we could just replace them with the mean or median of the column (median if the column's data is skewed and not normally distributed, i.e has a lot of outliers and mean if the data is normally distributed with few outliers).
     2. If around 30% (or more) of the column has NA values, then we should just drop them as replacing them with any value might skew the distribution and make our model bias.
     3. Maybe the NA itself is a piece of information, so flagging it by creating a new column would make sense.
+39. When dataset size is relatively small, low variance models are typically the best choice, as they do not overfit and would generalize well on additional data.
