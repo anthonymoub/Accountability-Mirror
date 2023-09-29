@@ -63,3 +63,61 @@ of the concepts I am learning.
 39. When dataset size is relatively small, low variance models are typically the best choice, as they do not overfit and would generalize well on additional data.
 40. Random Forests tend to be faster than XGBoost because the trees grow in parallel, compared to XGBoost, whose trees grow sequentially.
 41. Random Forests tend to be a bit more interpretable than XGBoost because of the best feature they offer.
+42. | Algorithm            | Pros                                                        | Cons                                                        |
+    | -------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
+    | Logistic Regression  | - Interpretable coefficients.                               | - Limited to linear relationships.                          |
+    |                      | - Efficient and quick to train.                             | - May underperform for complex data.                        |
+    |                      | - Low risk of overfitting.                                  |                                                             |
+    | -------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
+    | Naive Bayes          | - Simple and computationally efficient.                     | - Assumes independence of features.                         |
+    |                      | - Works well with high-dimensional data.                    | - May not capture complex dependencies.                     |
+    |                      | - Often used in text classification (NLP).                  |                                                             |
+    | -------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
+    | K-Nearest Neighbors  | - Intuitive and easy to understand.                         | - Computationally expensive with large datasets.            |
+    | (KNN)                | - No training phase; instance-based.                        | - Sensitive to the choice of K.                             |
+    |                      | - Effective with local patterns.                            | - High memory usage for storing the entire dataset.         |
+    | -------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
+    | Support Vector       | - Effective in high-dimensional spaces.                     | - Can be computationally intensive.                         |
+    | Machine (SVM)        | - Robust to overfitting.                                    | - Complex hyperparameter tuning.                            |
+    |                      | - Kernel trick captures nonlinear patterns.                 |                                                             |
+    |                      | - Margin concept aids in generalization.                    |                                                             |
+    | -------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
+    | Random Forest (RF)   | - High predictive accuracy.                                 | - Less interpretable than linear models.                    |
+    |                      | - Feature importance ranking.                               | - Computationally intensive with many trees.                |
+    |                      | - Handles mixed data and categorical variables.             |                                                             |
+    | -------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
+    | XGBoost              | - State-of-the-art performance.                             | - More complex model.                                       |
+    |                      | - Handles missing data and categorical variables.           | - Computationally intensive with many trees.                |
+    |                      | - Built-in regularization (L1 and L2).                      |                                                             |
+    |                      | - Feature importance scores.                                |                                                             |
+    | -------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
+
+43. | Regression Algorithm    | Pros                                                  | Cons                                                  |
+    | ----------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+    | Linear Regression       | - Interpretable coefficients.                         | - Assumes linear relationships.                       |
+    |                         | - Simple and quick to train.                          | - Limited to linear patterns.                         |
+    |                         | - Low risk of overfitting.                            | - May underperform for complex data.                  |
+    | ----------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+    | Ridge Regression        | - Reduces multicollinearity.                          | - May not eliminate irrelevant features.              |
+    |                         | - Controls overfitting with L2 regularization.        | - Requires tuning of regularization strength.         |
+    |                         | - Maintains interpretable coefficients.               |                                                       |
+    | ----------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+    | Lasso Regression        | - Feature selection; sets some coefficients to 0.     | - Can eliminate too many features if α is large.      |
+    |                         | - Simplicity with L1 regularization.                  | - Requires tuning of regularization strength.         |
+    |                         | - Handles multicollinearity.                          | - May not perform well with correlated features.      |
+    | ----------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+    | Decision Tree           | - Captures complex, nonlinear relationships.          | - Prone to overfitting without pruning.               |
+    | Regression              | - Handles mixed data types (categorical/numerical).   | - Sensitive to small variations in data.              |
+    |                         | - Easy to visualize and understand.                   | - Lack of smoothness in predictions.                  |
+    |                         | - No assumptions about data distribution.             |                                                       |
+    | ----------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+    | Random Forest           | - High predictive accuracy.                           | - Less interpretable than linear models.              |
+    | Regression              | - Combines multiple decision trees for stability.     | - Computationally intensive with many trees.          |
+    |                         | - Handles mixed data and categorical variables.       |                                                       |
+    |                         | - Provides feature importance ranking.                |                                                       |
+    | ----------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+    | XGBoost Regression      | - State-of-the-art performance.                       | - More complex model.                                 |
+    |                         | - Handles missing data and categorical variables.     | - Computationally intensive with many trees.          |
+    |                         | - Built-in regularization (L1 and L2).                |                                                       |
+    |                         | - Feature importance scores.                          |                                                       |
+    | ----------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
